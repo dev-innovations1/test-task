@@ -1,0 +1,28 @@
+[
+    {
+        "default_value": "",
+        "validation": "^[A-Za-z]+$",
+        "type": "text"
+    },
+    {
+        "default_value": "test",
+        "validation": "^[A-Za-z]+$",
+        "type": "text"
+    },
+    {
+        "default_value": "",
+        "validation": "^\\d+$",
+        "type": "number",
+        "min_value": 1,
+        "max_value": 100
+    },
+    {
+        "default_value": "option1",
+        "options": [
+            "option1",
+            "option2",
+            "option3"
+        ],
+        "type": "dropdown"
+    }
+]
